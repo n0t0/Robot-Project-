@@ -10,7 +10,7 @@ def hello():
     user = raw_input('What is your name? ')
     if user in name:
         print 'Hi', user
-        print 'How are you?'
+        print raw_input('How are you? ')
     else:
         print 'Hi {}. Nice to meet you. My owner is {}'.format(user, owner)
         print 'Analysing...'
@@ -31,7 +31,7 @@ def behDecision(behavior, mood):
     Robot makes a decision based on the behavior
     '''
 
-    for b in behavior:
+    for b in behavior: # needs a while loop
         if b == 'good':
             print 'Your behavior is GOOD', name[0]
             for m in mood:
