@@ -1,6 +1,7 @@
 class Physical():
 
     skills = ['running', 'swimming', 'jumping']
+    addictions = ['nicotine', 'shopping']
 
 
     def __init__(self, name, owner, physicalChars):

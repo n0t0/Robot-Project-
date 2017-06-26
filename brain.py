@@ -1,11 +1,29 @@
-# This robot is the friend that we all need
+# Ra (Robot Adviser)
+
 
 owner = 'Bongo'
+name = ['Mila', 'Maya', 'Maria']
 behavior = ['good', 'bad']
 mood = ['happy', 'sad']
-name = ['Mila', 'Maya', 'Maria']
-addictions = ['nicotine', 'shopping']
 
+def hello():
+    user = raw_input('What is your name? ')
+    if user in name:
+        print 'Hi', user
+        print 'How are you?'
+    else:
+        print 'Hi {}. Nice to meet you. My owner is {}'.format(user, owner)
+        print 'Analysing...'
+        print 'Implanting...'
+        print 'Added to database'
+
+print hello()
+
+print '===='*40
+print '||||'*40
+print '===='*40
+
+# from physical import Physical
 
 def behDecision(behavior, mood):
 
