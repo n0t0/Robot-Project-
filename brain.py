@@ -42,7 +42,7 @@ def behDecision(behavior, mood):
         else:
             print 'You behavior is bad'
             print 'Do NOT miss behave'
-            print 'Adive with', owner
+            print 'Adsive with', owner
 
 
 print behDecision(behavior, mood)

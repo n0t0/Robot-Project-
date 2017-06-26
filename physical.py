@@ -1,3 +1,5 @@
+from brain import hello
+
 class Physical():
 
     skills = ['running', 'swimming', 'jumping']
@@ -9,8 +11,8 @@ class Physical():
         self.name = name
 
     def greeting(self):
-        print 'Hi {}. My owner is {}'.format(self.name, self.owner)
-        print 'It is nice to meet you'
+        print 'Hi {}'.format(self.name)
+        print 'How are you?'
 
 
     def physicalChars(self, color, height, weight, hair, eyes):

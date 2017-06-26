@@ -1,0 +1,5 @@
+# Ignoring importing from Python itself
+ 
+
+*.pyc
+
