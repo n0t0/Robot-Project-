@@ -3,8 +3,8 @@
 
 owner = 'Bongo'
 friends = ['mila', 'maya', 'maria'] # list of friends
-behavior = ['good', 'bad']
-mood = ['good', 'bad', 'happy', 'sad'] # list of common moods
+mood = ['good', 'bad', 'happy', 'sad', 'lazy'] # list of common moods
+#behavior = ['good', 'bad']
 
 
 def hello():
@@ -23,6 +23,11 @@ print hello()
 
 
 def emotion():
+
+    # ToDo:
+    # pass the output to a list for comparison
+    # Try emotion(mood)
+
     m = raw_input('How are you? ').lower()
     while m in mood:
         if m == 'good':
@@ -32,7 +37,7 @@ def emotion():
         elif m == 'bad' or 'sad':
             print "I'm sorry. Cheer up."
             break
-        else:
+        else:   # the rest of the list with moods goes here
             print 'Tell more about it'
             print 'What made you', m + '?'
             break
@@ -40,26 +45,42 @@ def emotion():
         print 'Emotion not detected'
         print 'Ask another question'
 
-print emotion()
+#print emotion()
 
 # from physical import Physical
-def behDecision(emotion):
 
-    # Behavioral Decision compares emotional and physical arguments
+behavior = str(emotion())  # functions: behCheck(), emotion()
+
+
+def behCheck(emotion):
+
+    # Behavioral Check compares emotional and physical arguments
     # The result calls for -- implanting function
 
-    '''
-    Robot makes a decision based on the behavior
-    '''
+    '''     Robot makes a decision based on the behavior     '''
+    for b in behavior:
+        while behavior == 'good':
+            print 'Good'
+            break
+        else:
+            print 'Take action' # call another function
+    #for b in behavior:
+    #    print 'Hmm. We need to pass a few more arguments'
 
-    if m in emotion == 'good':
-        print 'Your behavior is good'
-    #elif:
+
+        #if b == 'good':
+            #print 'Here a biscuit'
+        #else:
+            #print 'BAD'
+    #elif behavior == 'negative':
+    #    print 'Red flag'
     #    print 'You behavior is bad'
     #    print 'Do NOT miss behave'
     #    print 'Adsive with', owner
-    else:
-        print 'Take action' # calls another functions
+    #    break
+    #else:
+        #print 'Take action' # calls another functions
 
+    #print emotion()
 
-print behDecision(emotion)
+print behCheck(emotion)
