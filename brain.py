@@ -1,5 +1,4 @@
-# BRF
-
+# BRF ~ Bsto Robo Frnd
 
 owner = 'Bongo'
 friends = ['mila', 'maya', 'maria'] # list of friends
@@ -33,7 +32,7 @@ def emotion():
         if m == 'good':
             print 'Happy face'
             print ':)'
-            break
+            break       # loop is not breaking when mood is 'good'
         elif m == 'bad' or 'sad':
             print "I'm sorry. Cheer up."
             break
