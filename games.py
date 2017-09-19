@@ -1,5 +1,4 @@
 # Games that BRF can play
 
-games = ['Chess', 'Pig']
 
-print games
+class Games(chess, pig)
