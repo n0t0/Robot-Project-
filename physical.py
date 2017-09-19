@@ -1,5 +1,25 @@
-from brain import hello
+# from brain import hello
 # from db import physical
+
+# TODO: Pass hello() input results from brain.py to class Physical
+
+owner = 'Bongo'
+home = 'Gipsy Mahala'
+friends = ['mila', 'maya', 'maria'] # list of friends
+mood = ['good', 'bad', 'happy', 'sad', 'lazy'] # list of common moods
+
+def hello():
+    user = raw_input('What is your name?\n').lower()
+    if user in friends:
+        print 'Hi', user.upper()
+        # mv ln24 def emotion_detect(): function checking for user's state
+        # pass emotion_detect() as an argument to behDecision()
+    else:
+        print 'Hi {}. It is nice to meet you! My owner is {}'.format(user, owner.upper())
+        print 'Analysing...'    # func needed (Amazon Rekognition)
+        print 'Implanting...'   # func needed (Amazon Polly)
+        print 'Added to database'   # lambda func to DynamoDB
+
 
 class Physical(object):
     """Represents a human phisycal appearance."""
@@ -11,12 +31,6 @@ class Physical(object):
     eyes_color = ['red']
     skills = ['running', 'swimming', 'jumping', 'driving']
     addictions = ['nicotine', 'alcohol', 'shopping']
-
-
-    # def __init__(self, username, owner, physicalChars):
-    #     self.owner = owner
-    #     self.username = username
-    #     self.skin = []
 
 
     def __init__(self, owner, username, sex, age):
@@ -31,7 +45,6 @@ class Physical(object):
         return 'Skin: %s\nSkills: %s\nSex: %s\nAge: %s\n' % (Physical.skin_color[self.owner],
                                                              Physical.skills[self.username],
                                                              self.sex, self.age)
-
 
 human = Physical(0, 2, 'male', 20)
 print human
