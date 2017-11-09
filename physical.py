@@ -22,7 +22,7 @@ def hello():
 
 
 class Physical(object):
-    """Represents a human phisycal appearance."""
+    """Represents a human?/user phisycal appearance."""
 
     skin_color = ['black', 'yellow', 'white', 'red', 'green']
     hair_color = ['black']
