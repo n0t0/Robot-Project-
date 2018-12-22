@@ -6,12 +6,17 @@ home = 'Gipsy Mahala'
 friends = ['mila', 'maya', 'maria']  # list of friends (token to facebook)
 mood = ['good', 'bad', 'happy', 'sad', 'lazy']  # list of common moods
 # behavior = ['good', 'bad']
+new_friends = []
 
 
 def hello():
+    '''
+    Greet the person. 
+    Add to database if a new friend.
+    '''
     user = input('What is your name?\n').lower()
     if user in friends:
-        print ('Hi'), user.upper()
+        return ('Hi'), user.upper()
         # mv ln24 def emotion_detect(): function checking for user's state
         # pass emotion_detect() as an argument to behDecision()
     else:
@@ -19,13 +24,20 @@ def hello():
             user, owner.upper()))
         print ('Analysing...')    # func needed (Amazon Rekognition)
         print ('Implanting...')  # func needed (Amazon Polly)
+        new_friends.append(user)
         print ('Added to database')   # lambda func to DynamoDB
+        print (new_friends)
 
 
-print (hello())
+# hello()
 
 
 def emotion_detect():
+    '''
+    This function should be triggered after hello().
+    Every 5 minutes.
+    And when a person takes an action.
+    '''
 
     # ToDo:
     # pass the output to a list for comparison
@@ -36,6 +48,7 @@ def emotion_detect():
         if m == 'good':    # list all good moods
             print ('Happy face. :)')
             print ('Do you want to play a game?')   # input/sync with games
+            # supermario docker imageb
             break
         elif m == 'bad':    # list all bad moods
             print ("I'm sorry. Cheer up.")
@@ -47,9 +60,10 @@ def emotion_detect():
     else:
         print ('Emotion not detected')
         print ('Ask another question')
+    # else:
 
 
-print (emotion_detect())
+# emotion_detect()
 
 # from physical import Physical
 
