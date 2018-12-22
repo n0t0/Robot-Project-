@@ -1,4 +1,5 @@
 # BRF ~ Bsto Robo Frnd
+# r0b0t0
 
 owner = 'Bongo'
 home = 'Gipsy Mahala'
