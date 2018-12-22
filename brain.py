@@ -5,7 +5,7 @@ owner = 'Bongo'
 home = 'Gipsy Mahala'
 friends = ['mila', 'maya', 'maria']  # list of friends (token to facebook)
 mood = ['good', 'bad', 'happy', 'sad', 'lazy']  # list of common moods
-#behavior = ['good', 'bad']
+# behavior = ['good', 'bad']
 
 
 def hello():
@@ -71,9 +71,9 @@ print (emotion_detect())
 #    print 'Hmm. We need to pass a few more arguments'
 
 # if b == 'good':
-#print 'Here a biscuit'
+# print 'Here a biscuit'
 # else:
-#print 'BAD'
+# print 'BAD'
 # elif behavior == 'negative':
 #    print 'Red flag'
 #    print 'You behavior is bad'
@@ -83,6 +83,6 @@ print (emotion_detect())
 # else:
 # print 'Take action' # calls another functions
 
-#print emotion_detect()
+# print emotion_detect()
 
 # print behCheck(emotion)
