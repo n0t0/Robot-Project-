@@ -1,4 +1,4 @@
-from brain import hello, emotion_detect
+from brain import hello, emotion_detect, ask_for_name
 import brain as br
 # from db import physical
 
@@ -27,6 +27,7 @@ class Physical(object):
 
     def __str__(self):
         print ('User: ')
+        # print (br.ask_for_name())
         print (br.hello())
         return 'Skin: %s\nSkills: %s\nSex: %s\nAge: %s\n' % (Physical.skin_color[self.owner],
                                                              Physical.skills[self.username],

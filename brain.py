@@ -9,6 +9,18 @@ mood = ['good', 'bad', 'happy', 'sad', 'lazy']  # list of common moods
 new_friends = []
 
 
+# def ask_for_name():
+#     user = input('What is your name?\n').lower()
+#     hi(user)
+
+
+# def hi(user):
+#     print ('Hi', user)
+
+
+# ask_for_name()
+
+
 def hello():
     '''
     Greet the person. 
@@ -16,12 +28,12 @@ def hello():
     '''
     user = input('What is your name?\n').lower()
     if user in friends:
-        return ('Hi'), user.upper()
+        return ('Hi', user.upper())
         # mv ln24 def emotion_detect(): function checking for user's state
         # pass emotion_detect() as an argument to behDecision()
     else:
         print ('Hi {}. It is nice to meet you! My owner is {}'.format(
-            user, owner.upper()))
+            user.title(), owner.upper()))
         print ('Analysing...')    # func needed (Amazon Rekognition)
         print ('Implanting...')  # func needed (Amazon Polly)
         new_friends.append(user)
