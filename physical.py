@@ -1,4 +1,4 @@
-from brain import hello, emotion_detect, ask_for_name
+from brain import hello, emotion_detect
 import brain as br
 # from db import physical
 
@@ -36,6 +36,9 @@ class Physical(object):
 
 human = Physical(2, 2, 'male', 20)
 print (human)
+
+human.outsideClass = 'string'
+print (human.outsideClass)
 
 human.weight = 180
 print (human.weight)
