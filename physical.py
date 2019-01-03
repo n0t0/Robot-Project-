@@ -40,7 +40,7 @@ print (human)
 human.outsideClass = 'string'
 print (human.outsideClass)
 
-human.weight = 180
+human.weight = 170
 print (human.weight)
 
 
