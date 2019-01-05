@@ -7,6 +7,8 @@ import brain as br
 # br.hello()
 # br.emotion_detect()
 
+# Physical Characteristics
+
 
 class Physical(object):
     """Represents a human?/user phisycal appearance."""
@@ -40,7 +42,7 @@ print (human)
 human.outsideClass = 'string'
 print (human.outsideClass)
 
-human.weight = 170
+human.weight = 180
 print (human.weight)
 
 
