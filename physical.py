@@ -1,4 +1,4 @@
-from brain import hello, emotion_detect
+from brain import hello
 import brain as br
 # from db import physical
 
@@ -18,7 +18,7 @@ class Physical(object):
     weight = []
     height = []
     eyes_color = ['red']
-    skills = ['running', 'swimming', 'jumping', 'driving']
+    skills = ['running', 'swimming', 'jumping', '   driving']
     addictions = ['nicotine', 'alcohol', 'shopping']
 
     def __init__(self, owner, username, sex, age):
@@ -36,7 +36,7 @@ class Physical(object):
                                                              self.sex, self.age)
 
 
-human = Physical(6, 4, 'male', 20)
+human = Physical(2, 2, 'male', 20)
 print (human)
 
 human.outsideClass = 'string'

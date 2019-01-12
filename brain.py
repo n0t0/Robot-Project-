@@ -44,35 +44,35 @@ def hello():
 # hello()
 
 
-def emotion_detect():
-    '''
-    This function should be triggered after hello().
-    Every 5 minutes.
-    And when a person takes an action.
-    '''
+# def emotion_detect():
+#     '''
+#     This function should be triggered after hello().
+#     Every 5 minutes.
+#     And when a person takes an action.
+#     '''
 
-    # ToDo:
-    # pass the output to a list for comparison
-    # Try emotion(mood)
+#     # ToDo:
+#     # pass the output to a list for comparison
+#     # Try emotion(mood)
 
-    m = input('How are you?\n').lower()
-    while m in mood:
-        if m == 'good':    # list all good moods
-            print ('Happy face. :)')
-            print ('Do you want to play a game?')   # input/sync with games
-            # supermario docker imageb
-            break
-        elif m == 'bad':    # list all bad moods
-            print ("I'm sorry. Cheer up.")
-            break
-        else:   # the rest of the list with moods goes here
-            print ('Tell more about it')
-            print ('What made you'), m + ('?')
-            break
-    else:
-        print ('Emotion not detected')
-        print ('Ask another question')
-    # else:
+#     m = input('How are you?\n').lower()
+#     while m in mood:
+#         if m == 'good':    # list all good moods
+#             print ('Happy face. :)')
+#             print ('Do you want to play a game?')   # input/sync with games
+#             # supermario docker imageb
+#             break
+#         elif m == 'bad':    # list all bad moods
+#             print ("I'm sorry. Cheer up.")
+#             break
+#         else:   # the rest of the list with moods goes here
+#             print ('Tell more about it')
+#             print ('What made you'), m + ('?')
+#             break
+#     else:
+#         print ('Emotion not detected')
+#         print ('Ask another question')
+# else:
 
 
 # emotion_detect()
