@@ -36,7 +36,7 @@ class Physical(object):
                                                              self.sex, self.age)
 
 
-human = Physical(4, 4, 'male', 20)
+human = Physical(6, 4, 'male', 20)
 print (human)
 
 human.outsideClass = 'string'
