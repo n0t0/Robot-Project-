@@ -1,4 +1,4 @@
-# BRF ~ Bsto Robo Frnd
+# BRF ~ Best Robo Friend
 # r0b0t0
 
 owner = 'Bongo'
@@ -24,11 +24,11 @@ new_friends = []
 def hello():
     '''
     Greet the person. 
-    Add to database if a new friend.
+    Add to database if BRF made a new friend.
     '''
     user = input('What is your name?\n').lower()
     if user in friends:
-        return ('Hi', user.upper())
+        return ('Hi', user.upper(), '!')
         # mv ln24 def emotion_detect(): function checking for user's state
         # pass emotion_detect() as an argument to behDecision()
     else:
