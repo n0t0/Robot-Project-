@@ -9,18 +9,6 @@ mood = ['good', 'bad', 'happy', 'sad', 'lazy']  # list of common moods
 new_friends = []
 
 
-# def ask_for_name():
-#     user = input('What is your name?\n').lower()
-#     hi(user)
-
-
-# def hi(user):
-#     print ('Hi', user)
-
-
-# ask_for_name()
-
-
 def hello():
     '''
     Greet the person. 
@@ -29,6 +17,8 @@ def hello():
     user = input('What is your name?\n').lower()
     if user in friends:
         print('Hi', user.upper(), '!')
+        # check database
+
         # mv ln24 def emotion_detect(): function checking for user's state
         # pass emotion_detect() as an argument to behDecision()
     else:

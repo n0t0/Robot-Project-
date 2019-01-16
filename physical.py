@@ -1,4 +1,3 @@
-# from brain import hello
 import brain as br
 # from db import physical
 
@@ -28,7 +27,7 @@ class Physical(object):
         self.age = age
 
     def __str__(self):
-        print ('User: ')
+        # print ('User: ')
         # print (br.ask_for_name())
         br.hello()
         return 'Skin: %s\nSkills: %s\nSex: %s\nAge: %s\n' % (Physical.skin_color[self.owner],
@@ -36,14 +35,12 @@ class Physical(object):
                                                              self.sex, self.age)
 
 
-human = Physical(2, 2, 'male', 20)
-print (human)
+human_001 = Physical(2, 2, 'male', 20)
+print (human_001)
 
-human.outsideClass = 'string'
-print (human.outsideClass)
+human_002 = Physical(1, 2, 'female', 19)
+print (human_002)
 
-human.weight = 180
-print (human.weight)
 
 br.emotion_detect()
 
