@@ -44,7 +44,7 @@ print (human_002)
 
 br.emotion_detect()
 
-
+#
 #
 # def physicalChars(self, color, height, weight, hair, eyes):
 #     print 'COLOR:\t %s\n HEIGHT:\t %s\n EYES:\t %s\n' % (self.color, self.height, self.eyes)
