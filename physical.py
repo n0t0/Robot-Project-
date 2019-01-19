@@ -44,6 +44,9 @@ print (human_002)
 human_003 = Physical(1, 1, 'female', 49)
 print (human_003)
 
+animal_001 = Physical(1, 1, 'animal', 2)
+print (animal_001)
+
 
 br.emotion_detect()
 
