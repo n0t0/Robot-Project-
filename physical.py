@@ -48,7 +48,10 @@ animal_001 = Physical(1, 1, 'animal', 2)
 print (animal_001)
 
 
+# Call this function after every human/animal
+
 br.emotion_detect()
+
 
 #
 #
