@@ -50,8 +50,9 @@ print (animal_001)
 
 # Call this function after every human/animal
 # Create a call diagram/map
-# Program Design
+# Program Structure/Design
 # API
+#
 
 br.emotion_detect()
 
