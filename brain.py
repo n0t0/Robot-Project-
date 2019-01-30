@@ -18,6 +18,7 @@ def hello():
     if user in friends:
         print('Hi', user.upper(), '!')
         # check database
+        # add friends list to dynamodb
 
         # mv ln24 def emotion_detect(): function checking for user's state
         # pass emotion_detect() as an argument to behDecision()
