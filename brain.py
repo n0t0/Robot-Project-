@@ -19,6 +19,7 @@ def hello():
         print('Hi', user.upper(), '!')
         # check database
         # add friends list to dynamodb
+        # api token to facebook
 
         # mv ln24 def emotion_detect(): function checking for user's state
         # pass emotion_detect() as an argument to behDecision()
