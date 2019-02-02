@@ -21,6 +21,7 @@ def hello():
         # add friends list to dynamodb
         # api token to facebook
         # vault
+        # key/value
 
         # mv ln24 def emotion_detect(): function checking for user's state
         # pass emotion_detect() as an argument to behDecision()
