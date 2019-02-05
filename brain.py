@@ -20,7 +20,7 @@ def hello():
         # check database
         # add friends list to dynamodb
         # api token to facebook
-        # vault
+        # vault/consul
         # key/value
 
         # mv ln24 def emotion_detect(): function checking for user's state
