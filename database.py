@@ -6,7 +6,7 @@ dynamodb = boto3.resource(
 
 # Create the DynamoDB table.
 table = dynamodb.create_table(
-    TableName='users',
+    TableName='Friends',
     KeySchema=[
         {
             'AttributeName': 'username',
@@ -35,7 +35,7 @@ table = dynamodb.create_table(
 )
 
 # Wait until the table exists.
-table.meta.client.get_waiter('table_exists').wait(TableName='users')
+table.meta.client.get_waiter('table_exists').wait(TableName='Friends')
 
 # Print out some data about the table.
 print(table.item_count)
