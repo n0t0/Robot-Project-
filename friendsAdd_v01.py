@@ -22,16 +22,16 @@ dynamodb = boto3.resource(
 table = dynamodb.Table('Friends')
 
 username = "n0t0"
-last_name = "ivanov"
+# last_name = "ivanov"
 
 response = table.put_item(
     Item={
         'username': username,
-        'lastname': last_name,
-        'info': {
-            'plot': "Nothing happens at all.",
-            'rating': decimal.Decimal(0)
-        }
+        # 'lastname': last_name,
+        # 'info': {
+        #     'plot': "Nothing happens at all.",
+        #     'rating': decimal.Decimal(0)
+        # }
     }
 )
 
