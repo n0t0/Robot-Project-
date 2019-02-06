@@ -12,11 +12,54 @@ dynamodb = boto3.resource(
 table = dynamodb.Table('Friends')
 
 
+owner = 'Ivo'
+user = input('What is your name?\n').lower()
+
+
 response = table.get_item(
     Key={
-        'username': 'n0t0',
+        # 'username': 'n0t0',
+        'username': user,
         'last_name': 'Ivanov'
     }
 )
 item = response['Item']
 print(item)
+
+
+if user in item.values():
+    print('Hi', user.upper(), '!')
+    # check database
+    # add friends list to dynamodb
+    # api token to facebook
+    # vault/consul
+    # key/value
+
+    # mv ln24 def emotion_detect(): function checking for user's state
+    # pass emotion_detect() as an argument to behDecision()
+else:
+    print ('Hi {}. It is nice to meet you! My owner is {}'.format(
+        user.title(), owner.upper()))
+    print ('Analysing...')    # func needed (Amazon Rekognition)
+    print ('Implanting...')  # func needed (Amazon Polly)
+    # new_friends.append(user)
+    # table.put_item(
+    #     Item={
+    #         'username': 'Maya',
+    #         'first_name': 'Mila',
+    #         'last_na/me': 'Yana',
+    #         'age': 32,
+    #         # 'account_type': 'admin',
+    #         'account_type': 'standart_user',
+    #     }
+    # )
+    table.put_item(
+        Item={
+            'username': user,
+            'first_name': 'Goran',
+            'last_name': 'Bregovic',
+            'age': 32,
+            'account_type': 'standart_user',
+        }
+    )
+    print(user, 'Added to database')   # lambda func to DynamoDB
