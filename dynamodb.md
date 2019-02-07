@@ -1,5 +1,6 @@
 aws dynamodb list-tables --endpoint-url http://localhost:8000
 
+docker run -p 8000:8000 amazon/dynamodb-local
 
 #### Create Table
 
@@ -22,3 +23,7 @@ aws dynamodb put-item \
         "AlbumTitle": {"S": "Songs About Life"} }' \
     --return-consumed-capacity TOTAL \
     --endpoint-url http://localhost:8000
+
+#### List Tables
+
+aws dynamodb list-tables --endpoint-url http://localhost:8000
