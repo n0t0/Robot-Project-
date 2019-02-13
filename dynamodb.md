@@ -27,3 +27,6 @@ aws dynamodb put-item \
 #### List Tables
 
 aws dynamodb list-tables --endpoint-url http://localhost:8000
+
+# Notes
+- pool 
