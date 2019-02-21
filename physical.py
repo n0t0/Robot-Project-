@@ -38,22 +38,6 @@ class Physical(object):
 human_001 = Physical(2, 2, 'male', 20)
 print (human_001)
 
-# human_002 = Physical(1, 2, 'female', 19)
-# print (human_002)
-
-# human_003 = Physical(1, 1, 'female', 49)
-# print (human_003)
-
-# animal_001 = Physical(1, 1, 'animal', 2)
-# print (animal_001)
-
-
-# Call this function after every human/animal
-# Create a call diagram/map
-# Program Structure/Design
-# API
-#
-
 br.emotion_detect()
 
 
