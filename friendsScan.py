@@ -14,9 +14,6 @@ table = dynamodb.Table('Friends')
 
 owner = 'Ivo'
 user = input('What is your username?\n').lower()
-# last_name = input('What is your last_name?\n').lower()
-
-table = dynamodb.Table('Friends')
 
 response = table.scan()
 data = response['Items']
@@ -27,6 +24,12 @@ while 'LastEvaluatedKey' in response:
 
 print(data)
 
+for username in data:
+    if username == user:
+        print ('HI')
+    else:
+        print ('Not found!')
+
 # if user in data:
 #     print('Hi', user.upper(), '!')
 
@@ -36,17 +39,6 @@ print(data)
 #         user.title(), owner.upper()))
 #     print ('Analysing...')    # func needed (Amazon Rekognition)
 #     print ('Implanting...')  # func needed (Amazon Polly)
-#     # new_friends.append(user)
-#     # table.put_item(
-#     #     Item={
-#     #         'username': 'Maya',
-#     #         'first_name': 'Mila',
-#     #         'last_na/me': 'Yana',
-#     #         'age': 32,
-#     #         # 'account_type': 'admin',
-#     #         'account_type': 'standart_user',
-#     #     }
-#     # )
 #     table.put_item(
 #         Item={
 #             'username': user,
