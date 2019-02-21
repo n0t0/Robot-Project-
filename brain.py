@@ -3,7 +3,8 @@
 
 owner = 'Bongo'
 home = 'Gipsy Mahala'
-friends = ['mila', 'maya', 'maria']  # list of friends (token to facebook)
+# friends check dynamodb table
+# friends = ['mila', 'maya', 'maria']  # list of friends (token to facebook)
 mood = ['good', 'bad', 'happy', 'sad', 'lazy']  # list of common moods
 # behavior = ['good', 'bad']
 new_friends = []

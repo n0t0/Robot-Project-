@@ -26,3 +26,4 @@ table.put_item(
         'account_type': 'admin',
     }
 )
+print("PutItem succeeded:")

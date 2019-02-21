@@ -13,8 +13,8 @@ table = dynamodb.Table('Friends')
 
 
 owner = 'Ivo'
-user = input('What is your name?\n').lower()
-
+user = input('What is your username?\n').lower()
+# last_name = input('What is your last_name?\n').lower()
 
 response = table.get_item(
     Key={
@@ -33,10 +33,8 @@ if user in item.values():
     # add friends list to dynamodb
     # api token to facebook
     # vault/consul
-    # key/value
+    # key/value (primary/compose)
 
-    # mv ln24 def emotion_detect(): function checking for user's state
-    # pass emotion_detect() as an argument to behDecision()
 else:
     print ('Hi {}. It is nice to meet you! My owner is {}'.format(
         user.title(), owner.upper()))
