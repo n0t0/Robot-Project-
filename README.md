@@ -23,7 +23,6 @@ friendsAddUser.py --> add user to database (Friends table)
 
 - define new_friend() function
 
-
 friendsMetadata.py
 
 
