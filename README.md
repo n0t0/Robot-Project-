@@ -5,9 +5,6 @@ This is a friendly robot  advicing users based on their actions.
 
 Inspired from the book: "Making Habits, Breaking Habits" by Jeremy Dean 
 
-
-
-
 ### Structure
 
 brain.py --> execute all functions
@@ -24,7 +21,5 @@ friendsAddUser.py --> add user to database (Friends table)
 - define new_friend() function
 
 friendsMetadata.py
-
-
 
 
