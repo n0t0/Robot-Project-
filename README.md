@@ -27,3 +27,5 @@ friendsMetadata.py
 ### API
 
 ### Docker
+
+### Serverless
