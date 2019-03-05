@@ -29,3 +29,5 @@ friendsMetadata.py
 ### Docker
 
 ### Serverless
+
+### Lambda
