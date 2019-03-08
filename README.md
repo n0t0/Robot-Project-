@@ -26,6 +26,9 @@ friendsMetadata.py
 
 ### API
 
+- rest API
+- flask
+
 ### Docker
 
 ### Serverless
