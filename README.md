@@ -28,6 +28,7 @@ friendsMetadata.py
 
 - rest API
 - flask
+- requirements
 
 ### Docker
 
