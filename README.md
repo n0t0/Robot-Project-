@@ -36,4 +36,4 @@ friendsMetadata.py
 
 ### Lambda
 
-### Qs
+### Queues
