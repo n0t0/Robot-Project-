@@ -33,3 +33,4 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 - pool
 - read/write
 - migrations
+- injections
