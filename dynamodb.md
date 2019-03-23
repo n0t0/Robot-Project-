@@ -31,9 +31,13 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 # Notes
 - iam/accounts
 - pool
+- KAFKA connector
 - read/write
 - migrations/rollback
 - injections
 - deploy (blue green)
 - CI/CD
+
+
+
 
