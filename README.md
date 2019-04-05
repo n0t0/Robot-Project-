@@ -32,6 +32,9 @@ friendsMetadata.py
 
 ### Docker
 
+- secrets
+
+
 ### Serverless
 
 ### Lambda
