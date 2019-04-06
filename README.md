@@ -33,6 +33,7 @@ friendsMetadata.py
 ### Docker
 
 - secrets
+- certificates
 
 
 ### Serverless
