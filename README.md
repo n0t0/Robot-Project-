@@ -34,6 +34,7 @@ friendsMetadata.py
 
 - secrets
 - certificates
+- NFS
 
 
 ### Serverless
