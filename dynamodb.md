@@ -1,6 +1,5 @@
 #### Start offline docker DynamoDB (development only)
 
-docker run -p 8000:8000 amazon/dynamodb-local
 
 #### Create Table
 
@@ -30,6 +29,7 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 
 # Notes
 - iam/accounts
+- s3
 - pool
 - KAFKA connector
 - read/write
