@@ -31,6 +31,7 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 - iam/accounts
 - s3
 - route53
+- ecs
 
 #### Notes
 - pool
