@@ -32,6 +32,7 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 - s3
 - route53
 - ecs
+- SQS
 
 #### Notes
 - pool
@@ -41,6 +42,7 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 - injections
 - deploy (blue green)
 - CI/CD
+
 
 
 
