@@ -38,7 +38,7 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 
 #### Notes
 - pool
-- nfs backend
+- nfs backend / cansus
 - KAFKA connector
 - read/write
 - migrations/rollback
