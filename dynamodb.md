@@ -27,6 +27,8 @@ aws dynamodb put-item \
 
 aws dynamodb list-tables --endpoint-url http://localhost:8000
 
+
+
 #### AWS
 - iam/accounts
 - s3
@@ -37,6 +39,7 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 - cloud formation
 
 #### Notes
+- plan / diagrams
 - pool
 - nfs backend / cansus
 - KAFKA connector
