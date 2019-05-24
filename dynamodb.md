@@ -37,6 +37,7 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 - SNS
 - SQS
 - cloud formation
+- vault
 - parameters store
 
 #### Notes
