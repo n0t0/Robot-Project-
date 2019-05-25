@@ -39,6 +39,7 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 - cloud formation
 - vault
 - parameters store
+- consul
 
 #### Notes
 - plan / diagrams
