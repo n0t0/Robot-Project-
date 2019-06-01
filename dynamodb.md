@@ -41,6 +41,7 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 - vault / approle
 - parameters store
 - consul
+- docker logs
 
 #### Notes
 - plan / diagrams
