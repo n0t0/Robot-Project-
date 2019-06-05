@@ -42,6 +42,7 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 - parameters store
 - consul
 - docker logs
+- docker backend storage
 
 #### Notes
 - plan / diagrams
@@ -56,6 +57,7 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 - CI/CD
 - schedule
 - calendar
+
 
 
 
