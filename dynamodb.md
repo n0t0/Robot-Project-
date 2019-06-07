@@ -39,12 +39,14 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 - SQS
 - cloud formation
 - vault / approle
+- vault source
 - parameters store
 - consul
 - docker logs
 - docker backend storage
 - rex ray 
 - min.io
+
 
 #### Notes
 - plan / diagrams
