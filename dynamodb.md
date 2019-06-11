@@ -31,6 +31,7 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 
 #### AWS
 - iam/accounts
+- VPC
 - step functions
 - s3
 - route53
