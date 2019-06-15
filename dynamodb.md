@@ -64,6 +64,7 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 - calendar
 - SSL/TLS
 - compliance
+- security
 
 
 
