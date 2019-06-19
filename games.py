@@ -1,4 +1,5 @@
 # Games that BRF can play
 
 
-class Games(chess, pig)
+class Games(chess, pig):
+    pass
