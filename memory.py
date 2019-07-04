@@ -4,4 +4,4 @@ TODO
 # exercises
 # start
 # finish
-# incetive
+# incentive
