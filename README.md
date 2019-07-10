@@ -25,6 +25,8 @@ friendsAddUser.py --> add user to database (Friends table)
 
 friendsMetadata.py
 
+- compliance
+
 ### Design
 
 ### API
