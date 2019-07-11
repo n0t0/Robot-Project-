@@ -34,6 +34,7 @@ friendsMetadata.py
 - rest API
 - flask
 - requirements
+- docker DNS
 
 ### Docker
 
