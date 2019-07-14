@@ -2,7 +2,8 @@ BRF~Best Robot Forever
 Make: Taka Manufacture
 Model: BRF
 
-
+- schedule
+- release
 
 This is a friendly robot  advicing users based on their actions.
 
