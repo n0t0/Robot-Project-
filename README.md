@@ -2,12 +2,16 @@ BRF~Best Robot Forever
 Make: Taka Manufacture
 Model: BRF
 
-- schedule
-- release
 
 This is a friendly robot  advicing users based on their actions.
 
 Inspired from the book: "Making Habits, Breaking Habits" by Jeremy Dean 
+
+
+### Schedule 
+
+- schedule
+- release
 
 ### Structure
 
