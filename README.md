@@ -14,6 +14,7 @@ Inspired from the book: "Making Habits, Breaking Habits" by Jeremy Dean
 - release
 - git
 - branch
+- traefik
 
 ### Structure
 
