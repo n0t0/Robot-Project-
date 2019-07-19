@@ -15,6 +15,7 @@ Inspired from the book: "Making Habits, Breaking Habits" by Jeremy Dean
 - git
 - branch
 - traefik
+- team
 
 ### Structure
 
