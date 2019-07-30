@@ -11,6 +11,7 @@ Inspired from the book: "Making Habits, Breaking Habits" by Jeremy Dean
 ### Schedule 
 
 - schedule
+- schedule
 - release
 - git
 - branch
