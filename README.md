@@ -17,10 +17,12 @@ Inspired from the book: "Making Habits, Breaking Habits" by Jeremy Dean
 - branch
 - traefik
 - team
+- - manager
 - director
 - NFS
 - system users
 - x-forwarding-for
+
 
 ### Structure
 
