@@ -18,6 +18,7 @@ Inspired from the book: "Making Habits, Breaking Habits" by Jeremy Dean
 - traefik
 - team
 - - manager
+- - workplace
 - director
 - NFS
 - system users
