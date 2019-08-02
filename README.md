@@ -23,6 +23,7 @@ Inspired from the book: "Making Habits, Breaking Habits" by Jeremy Dean
 - NFS
 - system users
 - x-forwarding-for
+- deploying
 
 
 ### Structure
