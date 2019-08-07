@@ -19,6 +19,7 @@ Inspired from the book: "Making Habits, Breaking Habits" by Jeremy Dean
 - team
 - - manager
 - - workplace
+- - director
 - director
 - NFS
 - system users
