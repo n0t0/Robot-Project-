@@ -14,6 +14,7 @@ Inspired from the book: "Making Habits, Breaking Habits" by Jeremy Dean
 - schedule
 - schedule
 - release
+- troubleshooting
 - git
 - branch
 - traefik
@@ -27,8 +28,8 @@ Inspired from the book: "Making Habits, Breaking Habits" by Jeremy Dean
 - x-forwarding-for
 - deploying
 
-
 ### Structure
+
 
 brain.py --> execute all functions
 
