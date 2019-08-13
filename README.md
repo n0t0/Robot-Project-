@@ -13,6 +13,7 @@ Inspired from the book: "Making Habits, Breaking Habits" by Jeremy Dean
 - schedule
 - schedule
 - schedule
+- notifications
 - release
 - troubleshooting
 - git
