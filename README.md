@@ -20,6 +20,7 @@ Inspired from the book: "Making Habits, Breaking Habits" by Jeremy Dean
 - branch
 - traefik
 - team
+- - good code
 - - manager
 - - workplace
 - - director
