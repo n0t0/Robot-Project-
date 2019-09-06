@@ -33,6 +33,7 @@ Inspired from the book: "Making Habits, Breaking Habits" by Jeremy Dean
 - deploying team
 - meetings
 - team team
+- flow
 
 ### Structure
 
