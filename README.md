@@ -70,6 +70,7 @@ friendsMetadata.py
 - certificates
 - NFS
 - reverse proxy
+- Kubes?
 
 
 ### Serverless
