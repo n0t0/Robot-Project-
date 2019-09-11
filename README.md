@@ -71,6 +71,7 @@ friendsMetadata.py
 - NFS
 - reverse proxy
 - Kubes?
+- opensource
 
 
 ### Serverless
