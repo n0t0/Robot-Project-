@@ -72,6 +72,8 @@ friendsMetadata.py
 - reverse proxy
 - Kubes?
 - opensource
+- stateless
+- stateful
 
 
 ### Serverless
