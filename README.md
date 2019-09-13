@@ -74,6 +74,7 @@ friendsMetadata.py
 - opensource
 - stateless
 - stateful
+- env
 
 
 ### Serverless
