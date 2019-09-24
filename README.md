@@ -76,6 +76,7 @@ friendsMetadata.py
 - stateful
 - env
 - comm
+- siga
 
 
 ### Serverless
