@@ -77,7 +77,7 @@ friendsMetadata.py
 - env
 - comm
 - siga
-
+- sega
 
 ### Serverless
 
