@@ -75,7 +75,7 @@ friendsMetadata.py
 - stateless
 - stateful
 - env
-- comm
+
 
 
 ### Serverless
