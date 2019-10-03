@@ -70,7 +70,6 @@ friendsMetadata.py
 - certificates
 - NFS
 - reverse proxy
-- Kubes?
 - opensource
 - stateless
 - stateful
