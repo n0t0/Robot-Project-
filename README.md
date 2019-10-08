@@ -74,6 +74,7 @@ friendsMetadata.py
 - stateless
 - stateful
 - env
+- load balancing
 
 
 
