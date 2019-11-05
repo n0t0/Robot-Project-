@@ -69,11 +69,11 @@ friendsMetadata.py
 - secrets
 - certificates
 - NFS
-- reverse proxy
 - opensource
 - stateless
 - stateful
 - env
+- reverse proxy
 - load balancing
 
 
