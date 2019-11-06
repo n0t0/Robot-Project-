@@ -75,6 +75,7 @@ friendsMetadata.py
 - env
 - reverse proxy
 - load balancing
+- DNS
 
 
 
