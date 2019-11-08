@@ -76,7 +76,8 @@ friendsMetadata.py
 - reverse proxy
 - load balancing
 - DNS
-
+- kube
+- helm
 
 
 ### Serverless
