@@ -78,6 +78,7 @@ friendsMetadata.py
 - DNS
 - kube
 - helm
+_ mesos
 
 
 ### Serverless
