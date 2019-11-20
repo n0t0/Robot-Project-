@@ -74,7 +74,7 @@ friendsMetadata.py
 - stateful
 - env
 - reverse proxy
-- load balancing
+- haproxy/load balancing
 - DNS
 - kube
 - helm
